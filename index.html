@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Call Radar for SDU Microelectronics</title>
+<meta name="description" content="Public funding calls that fit SDU Microelectronics, with deadline, consortium rule and source for each, checked 27 October 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <nav class="topnav" aria-label="Pages">
+    <a href="./" aria-current="page">Call radar</a>
+    <a href="100-days.html">First hundred days</a>
+    <button type="button" id="tourbtn">Walk me through it</button>
+  </nav>
+
+  <div class="eyebrow">Work sample &middot; Chip Ecosystem Partnership and Funding Manager, SDU TEK Innovation &middot; Bolga&ccedil; G&uuml;len</div>
+  <h1>Which chip funding calls can SDU Microelectronics still enter?</h1>
+  <p class="standfirst">The job advertisement asks for someone to maintain &ldquo;a strategic pipeline of
+  funding calls, project ideas and potential consortium partners&rdquo;. This page is the first layer of that
+  pipeline: the public calls that fit SDU Microelectronics, each with its deadline, its consortium rule and
+  the page I read it on. Most of them closed in September 2026, and the next group closes in March 2027.</p>
+
+  <div id="headline">
+    <div class="qa" id="qa">
+      <div><b>How many calls are still ahead?</b><span id="q1"></span></div>
+      <div><b>How many closed this year?</b><span id="q2"></span></div>
+      <div><b>When is the next group of deadlines?</b><span id="q3"></span></div>
+      <div><b>What could I not verify?</b><span id="q4"></span></div>
+    </div>
+    <p class="stale" id="stale"></p>
+  </div>
+
+  <figure id="bluf">
+    <div class="chartbox"><div id="chart"></div></div>
+    <div class="legend" id="legend">
+      <span><svg width="14" height="14" aria-hidden="true"><circle cx="7" cy="7" r="5.5" fill="#2a78d6"/></svg>Deadline ahead</span>
+      <span><svg width="14" height="14" aria-hidden="true"><circle cx="7" cy="7" r="5" fill="#fff" stroke="#2a78d6" stroke-width="1.6" stroke-dasharray="2.4 1.8"/></svg>Date from IFD only, unverified</span>
+      <span><svg width="14" height="14" aria-hidden="true"><circle cx="7" cy="7" r="4.5" fill="#b4b9c0"/></svg>Closed in 2026</span>
+      <span><svg width="14" height="14" aria-hidden="true"><rect x="2" y="2" width="10" height="10" fill="#fff" stroke="#2a78d6" stroke-width="1.6"/></svg>Expected in 2027, no date yet</span>
+      <span><svg width="22" height="14" aria-hidden="true"><line x1="2" y1="7" x2="20" y2="7" stroke="#1a1d21" stroke-width="1.3" stroke-dasharray="3 3"/></svg>The day I checked</span>
+    </div>
+    <p class="hint"><b>Click a dot</b> to jump to that call in the table. <b>Click a row name</b> in the chart to filter the table to that research area.</p>
+    <div class="caption">
+      <p><b>What you see:</b> each dot is one call's deadline, placed in the row of the SDU research area it fits. A call that fits two areas appears in both rows.</p>
+      <p><b>How to read it:</b> grey dots had passed when I checked and blue dots were still ahead. Squares on the right are calls expected in 2027 that have no published date.</p>
+      <p><b>What to take from it:</b> the September 2026 group of deadlines is gone, the next group closes in March 2027, and Cryogenic CMOS and Space and Security have the strongest calls still ahead.</p>
+    </div>
+  </figure>
+
+  <h2>Five things to know before the table</h2>
+  <p class="why">The table uses a few funding terms. These five statements and the glossary beside them are enough to read every row.</p>
+  <div class="two">
+    <div>
+      <ol class="primer">
+        <li>A funding call is a published invitation to apply for grant money, with a topic, a deadline and rules on who may apply.</li>
+        <li>Most EU chip calls need a consortium: several independent organisations from several countries applying together.</li>
+        <li>The Chips Joint Undertaking (Chips JU) is the EU body that writes the chip research calls. Its money comes from two EU programmes, Horizon Europe and Digital Europe.</li>
+        <li>For many Chips JU calls the member countries add national money for their own partners. In Denmark that money comes from Innovation Fund Denmark (IFD).</li>
+        <li>Deadlines move. A call can be extended on the EU portal weeks before the national page catches up.</li>
+      </ol>
+      <div class="flow" aria-label="How a Chips JU project is paid for">
+        <div class="box"><b>EU programmes</b>Horizon Europe and Digital Europe</div>
+        <div class="link"></div>
+        <div class="box"><b>Chips JU</b>writes the call and pays the EU share</div>
+        <div class="link"></div>
+        <div class="box"><b>Consortium</b>SDU, companies and partners in other countries</div>
+        <div class="link"></div>
+        <div class="box side"><b>Innovation Fund Denmark</b>adds national money for the Danish partners</div>
+      </div>
+    </div>
+    <dl class="gloss">
+      <dt>RIA and IA</dt><dd>Research and innovation action and innovation action: the two main EU grant types, for early research and for work close to a product.</dd>
+      <dt>CSA</dt><dd>Coordination and support action: pays for networking and coordination, not research.</dd>
+      <dt>Cluster 4</dt><dd>The part of Horizon Europe that covers digital technology, industry and space.</dd>
+      <dt>EU portal</dt><dd>The EU Funding and Tenders portal, where every EU call has a topic page with its code, deadline and conditions.</dd>
+      <dt>Associated country</dt><dd>A country outside the EU that takes part in Horizon Europe on near equal terms, such as Norway.</dd>
+      <dt>EEA</dt><dd>The European Economic Area: the EU plus Iceland, Liechtenstein and Norway.</dd>
+      <dt>SME</dt><dd>A small or medium sized company, under 250 staff in the EU definition.</dd>
+      <dt>Fabless and foundry</dt><dd>A fabless company designs chips; a foundry is the factory that makes them. To tape out is to send a finished design to the foundry.</dd>
+      <dt>CMOS and qubit</dt><dd>CMOS is the transistor technology nearly all chips use. A qubit is the basic unit of a quantum computer.</dd>
+      <dt>FPGA</dt><dd>A chip whose logic can be reprogrammed after it is made.</dd>
+    </dl>
+  </div>
+
+  <h2>What the job asks for, and what SDU works on</h2>
+  <p class="why">The radar is built from two things its readers own: the job advertisement and SDU Microelectronics' own list of research areas.</p>
+  <blockquote>&ldquo;Developing and maintaining a strategic pipeline of funding calls, project ideas and potential consortium partners.&rdquo;
+    <cite>Job advertisement 4305, Chip Ecosystem Partnership and Funding Manager, SDU, posted 6 October 2026</cite></blockquote>
+  <p>SDU Microelectronics lists six research areas on its website. I use them as the fit column, so each call is judged against what the groups say they do.</p>
+  <ul class="areas" id="arealist"></ul>
+  <p class="note">Source: <a href="https://www.sdu.dk/en/forskning/sdu-microelectronics/research-areas">SDU Microelectronics, Research Areas</a> (page last updated 21 September 2026). The short descriptions are mine.</p>
+  <p>With the six areas fixed, the table below checks each call against them.</p>
+
+  <h2 id="calls">The calls, with deadline, rule and source</h2>
+  <p class="why">This is the list I would bring to the first meeting with each group: one row per call, sorted by deadline, with the rule that decides whether SDU can enter.</p>
+  <div class="chips" id="areachips" role="group" aria-label="Filter by research area"></div>
+  <p class="hint"><b>Click a research area</b> to show only the calls that fit it. Calls open to any area stay in every view.</p>
+  <p class="showing" id="showing"></p>
+  <table class="calls" id="opentable">
+    <colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"><col class="c5"><col class="c6"></colgroup>
+    <thead><tr><th>Call</th><th>Funder</th><th>Deadline</th><th>Who can apply</th><th>Fit to SDU areas</th><th>Source</th></tr></thead>
+    <tbody></tbody>
+  </table>
+  <p class="note">Fit is my reading of each call's scope against the six areas. Strong means the scope names what a group already does. Partial means one part of the project could be SDU's. Weak means SDU could only join someone else's bid. Unverified marks a row whose rule I could not read on an official EU page.</p>
+
+  <h2 id="closed">Closed in 2026</h2>
+  <p class="why">These calls have passed. They still matter, because most of them return each year, so their dates are the best guide to 2027.</p>
+  <table class="calls" id="closedtable">
+    <colgroup><col style="width:26%"><col style="width:14%"><col style="width:13%"><col style="width:33%"><col style="width:14%"></colgroup>
+    <thead><tr><th>Call</th><th>Funder</th><th>Deadline</th><th>Fit to SDU areas</th><th>Source</th></tr></thead>
+    <tbody></tbody>
+  </table>
+  <p>The closed list shows the rhythm: the national and EU deadlines cluster in September, so the months before September are when consortia must form.</p>
+
+  <div class="warnbox" id="disagree">
+    <div id="disagree-core">
+    <h3>Why every row says where its date was read</h3>
+    <p>The same call can show different deadlines depending on the page. The AI chip demonstrator call is the clearest case on this list.</p>
+    <table class="mini">
+      <thead><tr><th>Where I read it on 27 Oct 2026</th><th>Deadline it gives</th></tr></thead>
+      <tbody>
+        <tr class="odd"><td>Chips JU work programme, Appendix 8 (version of 2 June 2026)</td><td class="d">23 Sep 2026</td></tr>
+        <tr class="odd"><td>Innovation Fund Denmark call page</td><td class="d">23 Sep 2026</td></tr>
+        <tr><td>EU portal topic page, after extensions posted on 13 Aug and 15 Oct</td><td class="d">1 Dec 2026</td></tr>
+        <tr><td>Chips JU list of open calls</td><td class="d">1 Dec 2026</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <p>IFD's page for the EU and Japan call has a different error: its header says 8 December 2027, while its own key dates and the EU portal say 8 December 2026. I therefore take EU deadlines from the EU portal and Danish money from IFD, and each row names its source.</p>
+  </div>
+
+  <h2>Read and set aside</h2>
+  <p class="why">A pipeline also needs the calls I looked at and dropped, so nobody has to check them again.</p>
+  <ul class="plain" id="setaside"></ul>
+
+  <h2>How I would keep this current</h2>
+  <p class="why">The list starts going stale on the day it is checked, so the method matters more than this version of it.</p>
+  <ol class="steps">
+    <li>The EU portal publishes every topic as data. A weekly script would read it for each call on the list and flag any change to a deadline, status or eligibility note since the week before.</li>
+    <li>Each row would carry the date it was last read against its source, and a row older than a month would be marked for a recheck.</li>
+    <li>When the EU portal and the IFD page disagree, the portal sets the EU deadline and IFD sets the Danish money, and the row says which is which.</li>
+    <li>Before anyone commits time to a call, I read the call text itself, not this list.</li>
+    <li>The list would live where the TEK Innovation funding advisers can edit it, so it does not depend on one person.</li>
+  </ol>
+
+  <h2>What this list does not do</h2>
+  <ul class="plain">
+    <li>The fit column is my reading, not the groups' view. Asking them is the first month of my plan.</li>
+    <li>Two rows rest on one source: the Chips JU quantum chip calls appear on IFD's site but not yet on the EU portal or the Chips JU site.</li>
+    <li>It covers public funders only. Private foundations, such as the Villum Foundation that funds SDU work today, are not in it.</li>
+    <li>It covers Denmark, the EU and one Nordic call. Other Nordic national funders are not checked.</li>
+    <li>It goes stale. Five calls on it have already moved their deadlines at least once, and more will.</li>
+  </ul>
+
+  <h2>Sources</h2>
+  <ul class="plain note">
+    <li>Job advertisement 4305 on the <a href="https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4305">SDU recruiting portal</a>.</li>
+    <li>SDU Microelectronics <a href="https://www.sdu.dk/en/forskning/sdu-microelectronics/research-areas">research areas</a> and <a href="https://www.sdu.dk/en/forskning/sdu-microelectronics/about-sdu-microelectronics">about page</a>.</li>
+    <li>EU Funding and Tenders portal topic pages, linked in each row. The Horizon Europe consortium rule is in the <a href="https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf">General Annexes 2026 to 2027</a>, Annex B, page 13.</li>
+    <li>Chips JU <a href="https://www.chips-ju.europa.eu/Open-and-Upcoming-Calls">open and upcoming calls</a> and <a href="https://www.chips-ju.europa.eu/Closed-Calls">closed calls</a>, and the 2026 work programme Appendix 7 (version of 15 April 2026) and Appendix 8 (version of 2 June 2026), linked from the topic pages.</li>
+    <li>Innovation Fund Denmark call pages, linked in each row. The fund now uses danmarksinnovationsfond.dk, and innovationsfonden.dk redirects there.</li>
+  </ul>
+
+  <footer>
+    <p>Every count on this page is computed in your browser from the data file <a href="https://github.com/bolgacg/call-radar/blob/main/calls.js">calls.js</a>, so the numbers cannot drift from the rows. The companion page is my <a href="100-days.html">first hundred days</a>.</p>
+    <p>Built with help from Claude; every deadline checked by hand against the source on 27 October 2026.</p>
+  </footer>
+</div>
+<script src="calls.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
